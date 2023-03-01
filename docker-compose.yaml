@@ -1,0 +1,13 @@
+version: '3'
+services:    
+  iris:
+    build: ./iris-messenger
+    ports:
+      - 8500:8080
+      
+networks:
+
+   
+volumes:
+
+    
